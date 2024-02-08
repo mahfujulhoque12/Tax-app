@@ -1,0 +1,292 @@
+// navbar
+
+.nav-bg{
+  background-color: #1a2a55 !important;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  z-index: 1000;
+  .nav-custom{
+    .active{
+      color: #ffffff;
+    }
+    a {
+      text-decoration: none;
+     color: rgb(250, 238, 238);
+  }
+ 
+  }
+  
+}
+
+// slider
+
+.slider-heading {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 66px;
+}
+.slider-text-color {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-shadow: 42 83 58 black;
+}
+
+
+// offer
+
+.offer-right{
+  h1{
+    color: rgb(0 0 0);
+    font-weight: 600;
+  }
+}
+
+.offer-left{
+    a{
+      text-decoration: none;
+      
+    }
+    .btn-1{
+      font-family: halyard-display,sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      line-height: 21px;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: rgb(0 0 0);
+      background-color: aqua;
+      padding: 20px;
+      transition: all 0.5s;
+    }
+    .btn-1:hover{
+      background-color: rgb(152, 163, 163);
+    }
+    .btn-2{
+      padding: 20px;
+    }
+}
+
+
+// service
+
+
+.service-wrap{
+  p.boder-bottom {
+    border-bottom: 1px solid #d1d1d1;
+  }
+  .service{
+    margin-top:100px;
+     
+    .service-card{
+      --tw-shadow: 2px 2px 1px 0 rgba(0,0,0,.1);
+      --tw-shadow-colored: 2px 2px 1px 0 var(--tw-shadow-color);
+       box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+        img.card-img {
+          height: 71px;
+          width: 79px;
+          display: flex;
+          margin: 0 auto;
+          margin-top: 20px;
+      }
+      h5{
+        text-align: center;
+      }
+    }
+  
+    h3{
+      color: rgb(0 0 0);
+      font-weight: 600;
+    }
+  }
+
+}
+
+//how-it-works
+
+.how-it-works{
+    margin-top: 69px !important;
+
+  .works-img {
+    width: 199px;
+    height: 197px;
+    margin-bottom: 17px;
+    border-radius: 137px;
+}
+
+}
+
+//footer
+.footer-wrap{
+  background-color: #1D2B53;
+  .footer{
+    ul{
+     font-size: 15px;
+     text-transform: uppercase;
+     font-weight: 600;
+      color: #f9f9f9;
+      li{
+        list-style: none;
+        margin-bottom: 10px;
+        font-weight: normal;
+        color: #fff;
+        a{
+          text-decoration: none;
+          color: #ffffff;
+        }
+        .social{
+          a{
+              color: #686868;
+              background-color: #fff;
+              width: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 30px;
+              border-radius: 3px;
+      
+          }
+        }
+      }
+     
+      li:nth-child(1){
+        margin-top: 10px;
+        
+      }
+    }
+  }
+}
+
+//invesment
+.icon-color{
+  color: goldenrod;
+}
+
+//calculator
+
+.calculator{
+  color: goldenrod;
+}
+
+
+// tax-drive
+
+.tax-drive-wrap{
+  .frist-component{
+    background-color: #5476d5;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+
+
+    .tax-drive-content{
+        width: 700px;
+        .tax-drive-content-color{
+          color: #fff;
+          font-size: 25px;
+        }
+    }
+    
+  }
+  .sec-component{
+    .sec-content{
+      width: 700px;
+      background-color: #ffffff;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      border-radius: 7px;
+      margin-top: -278px;
+      border: 1px solid #d9d9d9;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      img{
+        max-width: 358px;
+      }
+    }
+  }
+  .report-issue{
+    p{
+      background-color: white;
+      width: 136px;
+      margin-top: -19px;
+      margin-left: 479px;
+      padding: 7px 22px;
+      border-radius: 5px;
+    }
+  }
+}
+
+
+//review modal
+
+.review-submit{
+  .frist-review{
+    img{
+      width: 50px;
+      border-radius: 50%;
+    }
+  }
+}
+
+//register
+.form {
+  width: 700px;
+  padding: 27px;
+  background: white;
+  border: 1px solid #efe6e6;
+  border-radius: 6px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+//Tax Calculator 
+.margin-top {
+  margin-top: -11px;
+}
+
+.income-details-des {
+  background-color: rgb(235 239 245);
+  padding: 20px 29px;
+  text-align: start;
+  border-radius: 6px;
+}
+
+//for myself page
+
+.myself-des {
+  background-color: rgb(235, 239, 245);
+  padding: 20px 29px;
+  text-align: start;
+  border-radius: 6px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.details {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 31px;
+}
+.start-color {
+  color: red;
+  font-size: 10px;
+}
+.x-mark {
+  margin-top: -67px;
+  margin-left: 493px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.file-upload {
+  border: 1px dashed #fdbaba;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 10px;
+}
+span.p-button-label.p-clickable {
+  margin-left: 7px;
+}
